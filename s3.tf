@@ -4,7 +4,7 @@ resource "aws_s3_bucket" "b" {
 
 
  tags = {
-   Name        = “test bucket"
+   Name        = “patch 4 test bucket"
    Environment = "Dev"
  }
 }
